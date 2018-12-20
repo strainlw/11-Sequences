@@ -14,8 +14,8 @@ is different from:
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Loki Strain.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 
@@ -368,9 +368,12 @@ def print_all_items_forwards(sequence):
        Point at (90, 25)
     """
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # DONE: 3. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
+    for k in range(len(sequence)):
+        print(sequence[k])
+
 
 
 ###############################################################################
@@ -390,9 +393,12 @@ def print_all_items_backwards(sequence):
        55
     """
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # TO DO: 4. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
+
+    for k in range(len(sequence)-1,-1,-1):
+        print(sequence[k])
 
 
 ###############################################################################
